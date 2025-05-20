@@ -1,0 +1,6 @@
+@StickerApi_HostAddress = http://localhost:5095
+
+GET {{StickerApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
