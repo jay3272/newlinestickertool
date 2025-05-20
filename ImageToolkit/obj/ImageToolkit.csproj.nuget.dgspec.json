@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jay_Wu\\Documents\\GitHub\\newlinestickertool\\StickerApi\\StickerApi.csproj": {}
+    "C:\\Users\\Jay_Wu\\Documents\\GitHub\\newlinestickertool\\ImageToolkit\\ImageToolkit.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jay_Wu\\Documents\\GitHub\\newlinestickertool\\StickerApi\\StickerApi.csproj": {
+    "C:\\Users\\Jay_Wu\\Documents\\GitHub\\newlinestickertool\\ImageToolkit\\ImageToolkit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jay_Wu\\Documents\\GitHub\\newlinestickertool\\StickerApi\\StickerApi.csproj",
-        "projectName": "StickerApi",
-        "projectPath": "C:\\Users\\Jay_Wu\\Documents\\GitHub\\newlinestickertool\\StickerApi\\StickerApi.csproj",
+        "projectUniqueName": "C:\\Users\\Jay_Wu\\Documents\\GitHub\\newlinestickertool\\ImageToolkit\\ImageToolkit.csproj",
+        "projectName": "ImageToolkit",
+        "projectPath": "C:\\Users\\Jay_Wu\\Documents\\GitHub\\newlinestickertool\\ImageToolkit\\ImageToolkit.csproj",
         "packagesPath": "C:\\Users\\Jay_Wu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jay_Wu\\Documents\\GitHub\\newlinestickertool\\StickerApi\\obj\\",
+        "outputPath": "C:\\Users\\Jay_Wu\\Documents\\GitHub\\newlinestickertool\\ImageToolkit\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -47,20 +47,16 @@
         "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[9.0.2, )"
-            },
             "SixLabors.ImageSharp": {
               "target": "Package",
               "version": "[3.1.8, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "System.Drawing.Common": {
               "target": "Package",
-              "version": "[8.1.1, )"
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -74,10 +70,25 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
             },
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.200, 9.0.200]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            }
+          ],
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
