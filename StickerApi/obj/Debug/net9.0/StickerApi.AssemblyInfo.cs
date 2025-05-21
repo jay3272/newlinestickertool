@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StickerApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1cae79c3e45dba9291c178e829b2cd5e6433b6d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8596f267f2ea96a5fac27dad0d916a64c75f9437")]
 [assembly: System.Reflection.AssemblyProductAttribute("StickerApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StickerApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

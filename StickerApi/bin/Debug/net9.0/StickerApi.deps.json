@@ -9,7 +9,9 @@
       "StickerApi/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "9.0.2",
-          "Swashbuckle.AspNetCore": "8.1.1"
+          "SixLabors.ImageSharp": "3.1.8",
+          "Swashbuckle.AspNetCore": "8.1.1",
+          "ImageToolkit": "1.0.0.0"
         },
         "runtime": {
           "StickerApi.dll": {}
@@ -32,6 +34,14 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
             "assemblyVersion": "1.6.23.0",
             "fileVersion": "1.6.23.0"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/3.1.8": {
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.1.8.0"
           }
         }
       },
@@ -72,6 +82,14 @@
             "fileVersion": "8.1.1.1274"
           }
         }
+      },
+      "ImageToolkit/1.0.0.0": {
+        "runtime": {
+          "ImageToolkit.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -102,6 +120,13 @@
       "path": "microsoft.openapi/1.6.23",
       "hashPath": "microsoft.openapi.1.6.23.nupkg.sha512"
     },
+    "SixLabors.ImageSharp/3.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8eJkROLGh6DBQLR666q2aOpAaean2puZaZ6Ur9YxoyGzjaZhv8OJSxtnDou54+OXMkXtLUdyQC0so47sOsqZjg==",
+      "path": "sixlabors.imagesharp/3.1.8",
+      "hashPath": "sixlabors.imagesharp.3.1.8.nupkg.sha512"
+    },
     "Swashbuckle.AspNetCore/8.1.1": {
       "type": "package",
       "serviceable": true,
@@ -129,6 +154,11 @@
       "sha512": "sha512-GDLX/MpK4oa2nYC1N/zN2UidQTtVKLPF6gkdEmGb0RITEwpJG9Gu8olKqPYnKqVeFn44JZoCS0M2LGRKXP8B/A==",
       "path": "swashbuckle.aspnetcore.swaggerui/8.1.1",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.8.1.1.nupkg.sha512"
+    },
+    "ImageToolkit/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

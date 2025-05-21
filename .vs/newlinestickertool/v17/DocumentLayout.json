@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jay\\Documents\\GitHub\\newlinestickertool\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1BDC1AD7-B072-C146-684F-81C58CFF3038}|StickerApi\\StickerApi.csproj|c:\\users\\jay\\documents\\github\\newlinestickertool\\stickerapi\\models\\croprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BDC1AD7-B072-C146-684F-81C58CFF3038}|StickerApi\\StickerApi.csproj|solutionrelative:stickerapi\\models\\croprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BDC1AD7-B072-C146-684F-81C58CFF3038}|StickerApi\\StickerApi.csproj|c:\\users\\jay\\documents\\github\\newlinestickertool\\stickerapi\\controllers\\stickercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BDC1AD7-B072-C146-684F-81C58CFF3038}|StickerApi\\StickerApi.csproj|solutionrelative:stickerapi\\controllers\\stickercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BDC1AD7-B072-C146-684F-81C58CFF3038}|StickerApi\\StickerApi.csproj|c:\\users\\jay\\documents\\github\\newlinestickertool\\stickerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BDC1AD7-B072-C146-684F-81C58CFF3038}|StickerApi\\StickerApi.csproj|solutionrelative:stickerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BDC1AD7-B072-C146-684F-81C58CFF3038}|StickerApi\\StickerApi.csproj|c:\\users\\jay\\documents\\github\\newlinestickertool\\stickerapi\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BDC1AD7-B072-C146-684F-81C58CFF3038}|StickerApi\\StickerApi.csproj|solutionrelative:stickerapi\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CropRequest.cs",
+              "DocumentMoniker": "C:\\Users\\jay\\Documents\\GitHub\\newlinestickertool\\StickerApi\\Models\\CropRequest.cs",
+              "RelativeDocumentMoniker": "StickerApi\\Models\\CropRequest.cs",
+              "ToolTip": "C:\\Users\\jay\\Documents\\GitHub\\newlinestickertool\\StickerApi\\Models\\CropRequest.cs",
+              "RelativeToolTip": "StickerApi\\Models\\CropRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:25:34.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StickerController.cs",
+              "DocumentMoniker": "C:\\Users\\jay\\Documents\\GitHub\\newlinestickertool\\StickerApi\\Controllers\\StickerController.cs",
+              "RelativeDocumentMoniker": "StickerApi\\Controllers\\StickerController.cs",
+              "ToolTip": "C:\\Users\\jay\\Documents\\GitHub\\newlinestickertool\\StickerApi\\Controllers\\StickerController.cs",
+              "RelativeToolTip": "StickerApi\\Controllers\\StickerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:11:05.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\jay\\Documents\\GitHub\\newlinestickertool\\StickerApi\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "StickerApi\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\jay\\Documents\\GitHub\\newlinestickertool\\StickerApi\\wwwroot\\index.html",
+              "RelativeToolTip": "StickerApi\\wwwroot\\index.html",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAFwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-20T16:54:52.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jay\\Documents\\GitHub\\newlinestickertool\\StickerApi\\Program.cs",
+              "RelativeDocumentMoniker": "StickerApi\\Program.cs",
+              "ToolTip": "C:\\Users\\jay\\Documents\\GitHub\\newlinestickertool\\StickerApi\\Program.cs",
+              "RelativeToolTip": "StickerApi\\Program.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAqwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:42:03.984Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

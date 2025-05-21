@@ -1,24 +1,41 @@
 using ImageToolkit;
+using Microsoft.AspNetCore.Http;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
+using System;
 
-public class ImageProcessingService
+namespace StickerApi.Services
 {
-    public async Task<byte[]> CropAsync(IFormFile file, int x, int y, int width, int height)
+    public class ImageProcessingService
     {
-        using var stream = file.OpenReadStream();
-        var image = Image.Load<Rgba32>(stream);
-        var cropped = ImageHelper.Crop(image, x, y, width, height);
-        return ImageHelper.ExportToPng(cropped);
-    }
+        public async Task<byte[]> CropAsync(IFormFile file, int x, int y, int width, int height)
+        {
+            try
+            {
+                using var stream = file.OpenReadStream();
+                var imageBytes = ImageHelper.NormalizeImage(stream);
+                return ImageEditor.Crop(imageBytes, x, y, width, height);
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException("圖片裁剪失敗", ex);
+            }
+        }
 
-    public async Task<byte[]> ResizeAsync(IFormFile file, int width, int height)
-    {
-        using var stream = file.OpenReadStream();
-        var image = Image.Load<Rgba32>(stream);
-        var resized = ImageHelper.Resize(image, width, height);
-        return ImageHelper.ExportToPng(resized);
-    }
+        public async Task<byte[]> ResizeAsync(IFormFile file, int width, int height)
+        {
+            try
+            {
+                using var stream = file.OpenReadStream();
+                var imageBytes = ImageHelper.NormalizeImage(stream);
+                return ImageEditor.Resize(imageBytes, width, height);
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException("圖片縮放失敗", ex);
+            }
+        }
 
-    // 你也可以加上 Rotate、Brightness、Export 等
+        // 你也可以加上 Rotate、Brightness、Export 等
+    }
 }

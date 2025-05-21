@@ -1,0 +1,2 @@
+wwwroot\index.html
+C:\Users\jay\Documents\GitHub\newlinestickertool\StickerApi\wwwroot\index.html

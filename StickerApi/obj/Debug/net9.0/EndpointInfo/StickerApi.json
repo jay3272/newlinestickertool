@@ -1,0 +1,152 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "貼圖工具 API",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Sticker/crop": {
+      "post": {
+        "tags": [
+          "Sticker"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "File",
+                  "Height",
+                  "Width",
+                  "X",
+                  "Y"
+                ],
+                "type": "object",
+                "properties": {
+                  "File": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "X": {
+                    "maximum": 2147483647,
+                    "minimum": 0,
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Y": {
+                    "maximum": 2147483647,
+                    "minimum": 0,
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Width": {
+                    "maximum": 2147483647,
+                    "minimum": 1,
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Height": {
+                    "maximum": 2147483647,
+                    "minimum": 1,
+                    "type": "integer",
+                    "format": "int32"
+                  }
+                }
+              },
+              "encoding": {
+                "File": {
+                  "style": "form"
+                },
+                "X": {
+                  "style": "form"
+                },
+                "Y": {
+                  "style": "form"
+                },
+                "Width": {
+                  "style": "form"
+                },
+                "Height": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Sticker/resize": {
+      "post": {
+        "tags": [
+          "Sticker"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "File",
+                  "Height",
+                  "Width"
+                ],
+                "type": "object",
+                "properties": {
+                  "File": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "Width": {
+                    "maximum": 2147483647,
+                    "minimum": 1,
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Height": {
+                    "maximum": 2147483647,
+                    "minimum": 1,
+                    "type": "integer",
+                    "format": "int32"
+                  }
+                }
+              },
+              "encoding": {
+                "File": {
+                  "style": "form"
+                },
+                "Width": {
+                  "style": "form"
+                },
+                "Height": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Sticker/ping": {
+      "get": {
+        "tags": [
+          "Sticker"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

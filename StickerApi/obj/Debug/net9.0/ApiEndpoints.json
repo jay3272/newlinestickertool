@@ -1,0 +1,74 @@
+[
+  {
+    "ContainingType": "StickerApi.Controllers.StickerController",
+    "Method": "Crop",
+    "RelativePath": "api/Sticker/crop",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "X",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Y",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Width",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Height",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StickerApi.Controllers.StickerController",
+    "Method": "Ping",
+    "RelativePath": "api/Sticker/ping",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StickerApi.Controllers.StickerController",
+    "Method": "Resize",
+    "RelativePath": "api/Sticker/resize",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Width",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Height",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
