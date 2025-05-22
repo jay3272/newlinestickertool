@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StickerApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1365a0214b6c2533aeedf671330e6cc1e99f070")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8337a740fa2772001cdab1cfe35444d47e9eefc0")]
 [assembly: System.Reflection.AssemblyProductAttribute("StickerApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StickerApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
