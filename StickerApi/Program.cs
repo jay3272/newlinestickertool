@@ -15,6 +15,18 @@ builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "貼圖工具 API", Version = "v1" });
 });
 
+// 添加 CORS 服務
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFlutterWeb",
+        builder =>
+        {
+            builder.WithOrigins("http://localhost:62876") // Flutter Web 應用的 URL
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
+});
+
 builder.Services.AddScoped<ImageProcessingService>();
 
 var app = builder.Build();
@@ -32,6 +44,10 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
+// 啟用 CORS
+app.UseCors("AllowFlutterWeb");
+
 app.UseAuthorization();
 
 app.MapControllers();
