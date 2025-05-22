@@ -1,0 +1,79 @@
+# General
+.DS_Store
+.vscode/
+
+# Binaries and objects
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+
+# Packages
+*.nupkg
+# The client-side package manager
+jspm_packages/
+bower_components/
+
+# Profiling results
+*.sap
+*.snp
+
+# Build results
+*.els
+*.esproj.user
+*.vsix
+*.vsixmanifest
+*.webview
+
+# Unit test results
+*.trx
+
+# Windows Azure Mobile Services
+.cspkg
+*.wspolska
+
+# Publish
+*.publish.rest.user
+
+# SQL Server
+*.mdf
+*.ldf
+*.ndf
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.njsproj.user
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Dotnet
+.dotnet/
+.config/
+
+# Misc
+*.log
+*.sql
+
+# OS generated files
+.DS_Store
+.idea/
+
+# Project files
+*.user
+*.filters
+*.sort
+
+# Package Manager
+packages/
+*.lock.json
+
+# obj folder is ignored above
+# obj/
+
+# Debug and Release folders are ignored above
+# [Dd]ebug/
+# [Rr]elease/ 
